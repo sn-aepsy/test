@@ -16,9 +16,6 @@ jobs:
           minimum-approvals: 1
           issue-title: "DEPLOY BE"
           issue-body: "Please approve or deny the deployment of version v1.3.5."
-          exclude-workflow-initiator-as-approver: false
-          additional-approved-words: ''
-          additional-denied-words: ''
   otherjob:
     runs-on: ubuntu-latest
     steps:
@@ -30,6 +27,3 @@ jobs:
           minimum-approvals: 1
           issue-title: "DEPLOY FE"
           issue-body: "Please approve or deny the deployment of version v1.3.5."
-          exclude-workflow-initiator-as-approver: false
-          additional-approved-words: ''
-          additional-denied-words: ''
