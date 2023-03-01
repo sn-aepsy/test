@@ -2,7 +2,7 @@ name: Prod Pipeline (WEBAPP)
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   myjob:
